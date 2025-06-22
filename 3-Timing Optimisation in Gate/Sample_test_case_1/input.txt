@@ -1,0 +1,19 @@
+g1 4 3 2
+pins g1 0 2 4 1
+g2 3 2 1
+pins g2 0 0 3 2
+g3 4 5 6
+pins g3 0 5 0 3 4 5 4 3 4 1
+g4 3 3 9
+pins g4 0 2 3 1
+g5 3 3 6
+pins g5 0 0 3 3 0 3
+g6 5 2 3
+pins g6 0 1 5 0 
+wire_delay 2
+wire g1.p2 g3.p2
+wire g2.p2 g3.p1
+wire g3.p5 g6.p1
+wire g3.p3 g4.p1
+wire g3.p3 g5.p3
+wire g4.p2 g5.p1
